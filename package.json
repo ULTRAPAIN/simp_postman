@@ -4,11 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"snowpack dev"
+    "start": "snowpack dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.8"
+    "@codemirror/basic-setup": "^0.20.0",
+    "@codemirror/commands": "^6.3.3",
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/view": "^6.26.0",
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.6.8",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "pretty-bytes": "^6.1.1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.2.2"
   }
 }
